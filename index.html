@@ -1,94 +1,70 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Erdi's personal Site</title>
+    <meta charset="UTF-8">
+    <title>Erdi Haciogullari</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="erdi.ico?v=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td><img style="border-radius:50%;height:250px;width:250px" src="erdi.jpg" alt="Erdi's profile picture"></td>
-            <td>
-                <h1>Erdi Haciogullari</h1>
-                <p><em>Founder of happyness, and other stuff and things </em></p>
-                <p>I am a new graduate from UCLA with computer science major. I love travelling, road trips , movies and coooking. </p>
-            </td>
-        </tr>
-    </table>
-    <hr size="2">
-    <h3>Education</h3>
-    <ul>
-        <li>High School</li>
-        <ul style="list-style-type: circle">
-            <i><a href="https://sakaryaanadolulisesi.meb.k12.tr/tema/dosyadetay.php?KATEGORINO=332820&git=2">Sakarya Snadolu Lisesi</a></i>
+    <div class="nav">
+        <ul class="nav-ul">
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Skills</a></li>
+            <li><a href="#3">Contact</a></li>
         </ul>
-        <li>Undergrad Community Collage</li>
-        <ul>
-            <i><a href="https://www.lacitycollege.edu/">Los Angeles City Collage</a></i>
-        </ul>
-        <li>Undergrad Collage</li>
-        <ul>
-            <i><a href="https://www.ucla.edu/"> UCLA</a></i>
-        </ul>
-    </ul>
-    <hr size="2" noshade>
-    <h3>Skills</h3>
-    <table cellspacing="10px">
-        <tr>
-            <td>
-                <table cellspacing="10px">
-                    <tr>
-                        <td>Bootstrap</td>
-                        <td> &#9733 &#9733 &#9733 &#9734 &#9734 </td>
-                    </tr>
-                    <tr>
-                        <td>React</td>
-                        <td> &#9733 &#9733 &#9733 &#9734 &#9734</td>
-                    </tr>
-                    <tr>
-                        <td>NodeJS</td>
-                        <td> &#9733 &#9733 &#9733 &#9734 &#9734</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table cellspacing="10px">
-                    <tr>
-                        <td>JavaScript</td>
-                        <td> &#9733 &#9733 &#9733 &#9734 &#9734</td>
-                    </tr>
-                    <tr>
-                        <td>C++/c#</td>
-                        <td> &#9733 &#9733 &#9733 &#9733 &#9734</td>
-                    </tr>
-                    <tr>
-                        <td>Python</td>
-                        <td> &#9733 &#9733 &#9733 &#9733 &#9734</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
+    </div>
+    <div class="top-container" id="1">
+
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+        <h1>I'm Erdi</h1>
+        <p>Software Engineer</p>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+        <img src="images/mountain.png" alt="mountain-image">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img class="erdi" src="/images/erdi.jpg" alt="erdi's picture">
+            <h2>Hello.</h2>
+            <p class="intro">I m a new computer science graduate from UCLA. I love nature, lanscaping, road trips, and cooking.</p>
+        </div>
+        <hr>
+        <div class="skills" id="2">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-img-coding" src="images/skill.jpg" alt="coding image">
+                <h3>Software Development.</h3>
+                <p>I have always loved tech and computers since I was a little kid. Being part of the tech indutsry makes me happy. I love frontend development, computer graphics, and data science. Proficient in Java/JavaScript, C/C++, and Python.</p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-img-landscape" src="images/landscape.jpg" alt="landscape image">
+                <h3>HandyPerson.</h3>
+                <p>I love nature, landscaping, plants, and crafts. I like to design, ecexute ideas regarding to landscaping, cooking, painting, and all the other things I like doing.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me" id="3">
+            <h2 class="in-touch">Get In Touch</h2>
+            <h3>Lookin to Work.</h3>
+            <p class="currently">Currently looking to work in tech industry as a software developer.</p>
+            <a class="btn" href="mailto:erdiha@hotmail.com">CONTACT ME</a>
+        </div>
+    </div>
 
 
-
-
-    </table>
-    <hr noshade>
-    <h3>Portfolio</h3>
-    <ul>
-        <li><a href="https://github.com/Erdiha">Github respitory</a></li>
-        <li><a href="https://www.linkedin.com/in/erdi-haciogullari-919246222/">LinkedIn</a></li>
-        <li><a href="https://app.joinhandshake.com/stu/users/18554836">Handshake Profile</a></li>
-    </ul>
-    <a href="hobbies.html">My Hobbies</a>
-    <br>
-    <a href="contact.html">Contact</a>
-    <br>
-    <a href="skills.html">Skills</a>
-    <br>
-    <a href="inputs.html">Inputs</a>
+    <div class="bottom-container">
+        <a class="footer-link-linkedin" href="https://www.linkedin.com/in/erdi-haciogullari-919246222/">LinkedIn</a>
+        <a class="footer-link-github" href="https://github.com/Erdiha">Github</a>
+        <a class="footer-link-handshake" href="https://app.joinhandshake.com/stu/users/18554836">Handshake</a>
+        <p class="copyright">© Erdi Haciogullari.</p>
+    </div>
 </body>
 
 </html>
